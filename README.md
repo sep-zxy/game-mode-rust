@@ -1,5 +1,36 @@
 ﻿# GameMode Switcher Rust
 
+<div align="center">
+  <img src="./icon.png" width="96" height="96" alt="GameMode Switcher Rust icon" />
+
+  <h1>GameMode Switcher Rust</h1>
+
+  <p>
+    一个专为 Windows 游戏场景准备的预设切换工具：一键进入游戏模式，一键恢复日常模式。
+  </p>
+
+  <p>
+    <a href="#功能特性">功能特性</a>
+    ·
+    <a href="#快速开始">快速开始</a>
+    ·
+    <a href="#clash-设置">Clash 设置</a>
+    ·
+    <a href="#本地开发">本地开发</a>
+    ·
+    <a href="#注意事项">注意事项</a>
+  </p>
+
+  <p>
+    <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D4?style=flat-square" />
+    <img alt="tauri" src="https://img.shields.io/badge/Tauri-v2-24C8DB?style=flat-square" />
+    <img alt="rust" src="https://img.shields.io/badge/Rust-2021-B7410E?style=flat-square" />
+    <img alt="frontend" src="https://img.shields.io/badge/React%20%2B%20TypeScript-20232A?style=flat-square" />
+  </p>
+</div>
+
+## 简介
+
 GameMode Switcher Rust 是一个 Windows 桌面小工具，用来把“打游戏前后那堆重复操作”整理成可切换的预设。
 
 它不是游戏加速器，也不会让帧率原地起飞。它解决的是更朴素但很烦的问题：进入游戏前关闭无关后台、启动需要的辅助软件、处理 Clash/TUN/系统代理；退出游戏后再把该恢复的东西恢复回来。
@@ -19,6 +50,18 @@ GameMode Switcher Rust 是一个 Windows 桌面小工具，用来把“打游戏
 - 网络游戏环境容易被 TUN 或系统代理影响。
 - 退出游戏后还得手动恢复常用软件。
 - 不想维护一堆 bat/PowerShell 脚本。
+
+## 快速开始
+
+目前建议从 GitHub Releases 下载构建好的安装包。发布前如果还没有 Release，可以先按下面的本地构建方式运行。
+
+运行后你可以：
+
+1. 新建一个游戏场景预设。
+2. 配置进入游戏模式时要关闭/启动的程序。
+3. 配置退出游戏模式时要恢复/关闭的程序。
+4. 如果使用 Clash，在全局设置里填好 Clash 路径、控制端口和 API 密钥。
+5. 把窗口关到托盘，通过托盘菜单切换模式。
 
 ## 技术栈
 
