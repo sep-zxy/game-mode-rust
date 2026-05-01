@@ -151,5 +151,4 @@ src-tauri/src/infra/windows/ Windows 平台能力
 - 如果系统在游戏模式开启期间重启，程序会在下次启动时自动清理运行态标记。
 
 ## License
-
-发布前请补充许可证文件，例如 MIT、Apache-2.0 或 GPL-3.0。
+本项目采用 MIT License 开源协议，详情请参阅项目根目录下的 [LICENSE](./LICENSE) 文件。
