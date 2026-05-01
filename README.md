@@ -1,6 +1,4 @@
-﻿# GameMode Switcher Rust
-
-<div align="center">
+﻿<div align="center">
   <img src="./icon.png" width="96" height="96" alt="GameMode Switcher Rust icon" />
 
   <h1>GameMode Switcher Rust</h1>
