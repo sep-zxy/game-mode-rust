@@ -1,0 +1,30 @@
+﻿# Dependencies / frontend
+node_modules/
+dist/
+.vite/
+
+# Editor / local env
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Tauri / Rust
+src-tauri/target/
+src-tauri/gen/
+.shim/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+*.log
+
+# Release artifacts
+*.exe
+*.msi
+*.msix
+*.appx
+*.zip
+*.7z
+*.tar.gz

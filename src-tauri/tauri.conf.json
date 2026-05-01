@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "GameModeSwitcherRust",
+  "version": "0.1.0",
+  "identifier": "com.gamemode.switcher.rust",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "GameMode Switcher Rust",
+        "width": 1320,
+        "height": 860,
+        "minWidth": 1080,
+        "minHeight": 720,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "nsis",
+    "icon": ["../icon.ico", "../icon.png"],
+    "windows": {
+      "allowDowngrades": true
+    }
+  }
+}
