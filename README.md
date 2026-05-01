@@ -20,15 +20,6 @@ GameMode Switcher Rust 是一个 Windows 桌面小工具，用来把“打游戏
 - 退出游戏后还得手动恢复常用软件。
 - 不想维护一堆 bat/PowerShell 脚本。
 
-## 截图
-
-截图可以放在 `docs/` 或 GitHub Release 页面里。建议至少准备：
-
-- 主界面预设工作台
-- 应用编排列表
-- Clash/代理规则设置
-- 托盘菜单
-
 ## 技术栈
 
 - Tauri v2
